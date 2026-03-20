@@ -4,6 +4,7 @@ age=24
 name="James"
 #decimal
 PIE=3.14
+
 is_driver=True
 print(age)
 print(name)
@@ -16,3 +17,5 @@ print(type(age))
 print(type(name))
 print(type(PIE))
 print(type(is_driver))
+
+
