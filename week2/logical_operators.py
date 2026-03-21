@@ -23,10 +23,13 @@
 #     print("Result not found")
     
 
-fruits = ["apple", "banana", "cherry"]
-search_keyword=input("Search for your favorite fruit: ").lower()
-if search_keyword in fruits:
-    print(f"{search_keyword} is in store.You can make an order")
-else:
-    print(f"Sorry, {search_keyword} is unavailable. Please check back later")  
-     
+# fruits = ["apple", "banana", "cherry"]
+# search_keyword=input("Search for your favorite fruit: ").lower()
+# if search_keyword in fruits:
+#     print(f"{search_keyword} is in store.You can make an order")
+# else:
+#     print(f"Sorry, {search_keyword} is unavailable. Please check back later")  
+    
+# age=int(input("How old are you?"))
+# status="You are an adult" if age>=18 else "You are a minor"
+print("You are an adult" if int(input("How old are you?")) >=18 else "You are a minor")
